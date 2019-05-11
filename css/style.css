@@ -40,8 +40,11 @@ body{
   .contentttt .left{
       width: 20%;
       height: 870px;
-      background-color: silver;
-      
+      background-color: silver;   
+  }
+  .contentttt .inleft{
+      margin:20px;
+      height: 850px;
   }
   .contentttt .right{
       width: 80%;
@@ -59,51 +62,60 @@ body{
       background-color: black; 
       color: aqua;
   }
-  .contentttt .left .bentrenne{
+  .contentttt .left .inleft .bentrenne{
       width: 100%;
       height: 45%;
       background-color: silver;
   }
-.contentttt .left .caisong{
+/* .contentttt .left .inleft .caisong{
     width: 30%;
     height: 1%;
     float: right;
     background-color: black;
-}
-.contentttt .left .benduoine{
+} */
+.contentttt .left .inleft .benduoine{
     width: 100%;
     height: 54%;
     background-color: silver;
 
 }
-.contentttt .left .bentrenne .logodayne{
+.contentttt .left .inleft .bentrenne .logodayne{
     width: 100%;
     height: 20%;
     /* background-color: orange; */
 }
-.contentttt .left .bentrenne .menudayne{
+.contentttt .left .inleft .bentrenne .menudayne{
     width: 100%;
     height: 80%;
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: right;
 }
-.contentttt .left .bentrenne .logodayne img{
+.contentttt .left .inleft .bentrenne .logodayne img{
     width: 60%;
     height: 100%;
     float: right;
 }
-.contentttt .left .bentrenne .menudayne .textgido{
+.contentttt .left .inleft .bentrenne .menudayne .textgido{
     width: 100%;
     height: 25%;
     font-size: 25px;
     font-weight: bold; 
-    background-color: aqua;
+    margin-top: 5px;
+    /* background-color: aqua; */
 }
-.contentttt .left .bentrenne .menudayne .aboutgido{
+.contentttt .left .inleft .bentrenne .menudayne .aboutgido{
     width: 100%;
     height: 35%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 a{
     color: black;
+}
+.contentttt .left .inleft .bentrenne .menudayne .textgido p{
+    font-size: 15px;
+    margin: 10px 0 0 0;
+    color: slategray;
+}
+.contentttt .left .inleft .bentrenne .menudayne .dichthilamenu{
+    margin-top: 10px;
 }
